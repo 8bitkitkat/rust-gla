@@ -1,0 +1,11 @@
+[package]
+name = "gla"
+version = "0.1.0"
+authors = ["Ketan Reynolds <ketan.cs.reynolds@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sgl = { git = "https://github.com/8bitkitkat/rust-sgl.git" }
+shrinkwraprs = "0.3"
